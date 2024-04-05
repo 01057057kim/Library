@@ -8,7 +8,7 @@ const show = ref(false)
         <div v-if="show" class="absolute w-full h-screen left-0 top-0 bg-black bg-opacity-50"></div>
         <div class="flex gap-[4vw]">
             <button @click="show = !show" type="text">
-                <img src="../assets/Images/menu.svg" alt="hamburger">
+                <img src="../../assets/Images/menu.svg" alt="hamburger">
             </button>
             <p class="text-2xl font-bold uppercase">logo</p>
         </div>
@@ -16,7 +16,7 @@ const show = ref(false)
             <ul class="flex flex-col items-start gap-[3vw]">
                 <div>
                     <button @click="show = false" type="text">
-                        <img src="../assets/Images/close.svg" alt="close">
+                        <img src="../../assets/Images/close.svg" alt="close">
                     </button>
                 </div>
                 <li>
